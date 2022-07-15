@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Web App de Clima</title>
+</head>
+
+<body onLoad="onLoad()">
+    <main>
+        <div id="container">
+            <div class="part">
+
+                <div class="site" id="location"></div>
+                <div id="date"></div>
+                <div class="info-container">
+                    Estado:
+                    <div id="description"></div>
+                </div>
+            </div>
+
+            <div class="part">
+                <div class="info-container">
+                    Presion (Pa):
+                    <div id="pressure"></div>
+                </div>
+
+                <div class="info-container">
+                    Temperatura (°C):
+                    <div id="temp"></div>
+
+                </div>
+
+                <div class="info-container">
+                    Viento (Km/h):
+                    <div id="wind"></div>
+                </div>
+
+                <div class="info-container">
+                    Humedad (%):
+                    <div id="humidity"></div>
+                </div>
+            </div>
+        </div>
+        <div id="loader" class="loader">Cargando...</div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
